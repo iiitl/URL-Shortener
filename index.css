@@ -1,0 +1,278 @@
+:root{
+    --aq: #2ad0cf;
+    --dark: #35323d;
+    --light: #9a9fae;
+    --pg2col: #f0f1f6;
+    --shorten: #3b2f53;
+    --whitebet: rgba(255, 255, 255, 0.918);
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px 80px;
+    font-weight: 800;
+    font-size: 1em;
+}
+nav > a,nav > button{
+    margin: 20px;
+    font-size: 1.0em;
+}
+#login{
+    margin-left: auto;
+}
+.home{
+    font-size: 2.3em;
+    color: var(--dark);
+}
+a{
+    text-decoration: none;
+    color: var(--light);
+    align-self: center;
+    transition: color 0.3s;
+}
+nav > a:hover{
+    color: var(--dark);
+}
+#signup{
+    background-color:var(--aq);
+    border: 0px;
+    color: var(--whitebet);
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-weight: 800;
+    border-radius: 28px;
+}
+.more{
+    margin-top: 80px;
+    margin-left: 100px;
+    width: fit-content;
+}
+.h11{
+    font-size: 4.9em;
+    color: var(--dark);
+}
+.p1{
+    width: fit-content;
+    font-size: 1em;
+    /* margin-left: 100px; */
+    margin-top: -45px;
+    color: var(--light);
+}
+.first{
+    display: flex;
+    margin-bottom: 100px;
+}
+.first > img{
+    width: 600px;
+    height: calc(600px*482/733);
+    margin-left: auto;
+}
+#gstarted{
+    background-color:var(--aq);
+    border: 0px;
+    color: var(--whitebet);
+    padding: 12px 20px;
+    font-size: 1em;
+    /* font-weight: 800; */
+    border-radius: 28px;
+    width: fit-content;
+    /* margin-bottom: 110px; */
+}
+.page2{
+    background-color: var(--pg2col);
+    position: relative;
+}
+.page2 .shorten{
+    width: 78vw;
+    margin: 0vw 8vw;
+    padding: 2%;
+    background-color: var(--shorten);
+    background-image: url(images/bg-shorten-desktop.svg);
+    background-size: cover;
+    border-radius: 10px;
+    top: -4.5%;
+    position: absolute;
+    display: flex;
+}
+.page2 .shorten > input{
+    width: 84%;
+    padding: 1%;
+    border-radius: 5px;
+    border: 0px;
+}
+.page2 .shorten > button{
+    margin-left: auto;
+    width: 12%;
+    height: 50px;
+    color: var(--whitebet);
+    background-color: var(--aq);
+    border: 0px;
+    border-radius: 5px;
+    /* padding: 15px 40px; */
+    font-size: 1.1em;
+    font-weight: 800;
+    overflow: hidden;
+}
+.links{
+    width: 100vw;
+    height: 400px;
+    /* background-color: black; */
+    color: black;
+    visibility:hidden;
+    overflow: scroll;
+}
+#error{
+    color: red;
+    font-size: 110%;
+    position: absolute;
+    bottom: -15px;
+}
+#recent{
+    background-color: var(--pg2col);
+}
+.recenthead{
+    margin-top: 50px;
+    margin-left: -2vw;
+}
+#shorturl{
+    margin-left: auto;
+    margin-right: 30px;
+    color: var(--aq);
+}
+#copy{
+    width: 130px;
+    height: 40px;
+    margin-right: 30px;
+    background-color: var(--aq);
+    color: white;
+    border: 0px;
+    border-radius: 8px;
+}
+.links > div{
+    background-color: white;
+    width: 78vw;
+    height: 40px;
+    margin: 0vw 8vw;
+    margin-top: 30px;
+    padding: 2%;
+    color: black;
+    background-size: cover;
+    border-radius: 10px;
+}
+#delete{
+    width: 30px;
+    height: 30px;
+}
+#delete:hover{
+    cursor: pointer;
+}
+.link1{
+    display: flex;
+    align-items: center;
+}
+#time{
+    font-style: italic;
+    color: var(--light);
+}
+.adv{
+    padding-top: 120px;
+    text-align: center;
+    font-size: 1.2em;
+    color: var(--dark);
+}
+.p2{
+    color: var(--light);
+}
+.weird{
+    display: flex;
+    justify-content: space-around;
+    padding: 150px 100px;
+    position: relative;
+}
+.weird > div{
+    background-color: white;
+    border-radius: 10px;
+    width: 25%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    position: relative;
+}
+.div1{
+    margin-top: -4%;
+    margin-bottom: auto;
+}
+.div2{
+    margin-bottom: auto;
+}
+.div3{
+    margin-top: 4%;
+}
+.weird > div >h2{
+    font-size: 1.2em;
+}
+.weird > div >p{
+    color: var(--light);
+    line-height: 1.8em;
+}
+.weird > div >div{
+    border-radius: 50%;
+    background-color: var(--shorten);
+    padding: 15px;
+    top: -30px;
+    position: absolute;
+}
+.boost{
+    background-image: url(images/bg-boost-desktop.svg);
+    background-size: cover;
+    background-color: var(--shorten);
+    display: flex;
+    flex-direction: column;
+    color: var(--whitebet);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 2.5%;
+}
+footer{
+    background-color: var(--dark);
+    color: white;
+    padding: 0% 10%;
+}
+.footerele{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+}
+.col2, .col3, .col4{
+    display: flex;
+    flex-direction: column;
+    
+}
+.col2 > a, .col3 > a, .col4 > a{
+    margin-top: 20px;
+    transition: color 0.3s;
+}
+.col2 > a:hover, .col3 > a:hover, .col4 > a:hover{
+    color: var(--aq);
+}
+.footnote{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 0.8em;
+    padding-bottom: 20px;
+}
+.social{
+    padding-top: 20px;
+}
+.social > img{
+    margin-left: 60px;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 80%;
+    transition: opacity 0.3s;
+}

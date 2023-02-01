@@ -1,0 +1,117 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <a href="#home" class="home">Shortly</a>
+            <a href="#features">Features</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#resources">Resources</a>
+            <a href="#login" id="login">Login</a>
+            <button id="signup">Sign Up</button>
+        </nav>
+        <div class="first">
+            <div class="more">
+                <h1 class="h11">More than just shorter links</h1>
+                <p class="p1">Build your brand’s recognition and get detailed insights on how your links are performing.</p>
+                <button id="gstarted">Get Started</button>
+            </div>
+            <img src="images/illustration-working.svg" alt="" id="working">
+        </div>
+        
+        
+        <div class="page2">
+            <div class="shorten">
+                <input type="text" id="text" placeholder="Shorten a link here...">
+                <p id="error"></p>
+                <button onclick="generate()">Shorten It!</button>
+                
+            </div>
+            <div class="links" id="links">
+                <div id="recent">
+                    <p class="recenthead">Recent links</p>
+                </div>
+                
+                <div class="link1">
+                    <div class="ele1">
+                        <p id="ogurl"></p>
+                        <p id="time"></p>
+                    </div>
+                    <!-- <p id="shorturl"></p> -->
+                    <a href="#" id="shorturl"></a>
+                    <button id="copy" onclick="copy()">Copy</button>
+                    <img src="images/bin.png" alt="" id="delete" onclick="dele()">
+                </div>
+            </div>
+            <div class="adv">
+                <h1 class="advstat">Advanced Statistics</h1>
+                <p class="p2">Track how your links are performing across the web with our advanced statistics dashboards</p>
+            </div>
+            <div class="weird">
+                <div class="div1">
+                    <div class="bubble">
+                        <img src="images/icon-brand-recognition.svg" alt="">    
+                    </div>
+                    <h2>Brand Recognition</h2>
+                    <p>Boost your brand recognition with each click. Generic links don't mean a thing. Branded links help instil confidence in your content.</p>
+                </div>
+                <div class="div2">
+                    <div class="bubble">
+                        <img src="images/icon-detailed-records.svg" alt="">
+                    </div>
+                    <h2>Detailed Records</h2>
+                    <p>Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.</p>
+                </div>
+                <div class="div3">
+                    <div class="bubble">
+                        <img src="images/icon-fully-customizable.svg" alt="">    
+                    </div>
+                    <h2>Fully Customizable</h2>
+                    <p>Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.</p>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="boost">
+            <h1>Boost your links today</h1>
+            <button id="gstarted">Get Started</button>
+        </div>
+        <footer>
+            <div class="footerele">
+                <div class="col1">Shortly</div>
+                <div class="col2">
+                    <p>Features</p>
+                    <a href="#">Link Shortening</a>
+                    <a href="#">Branded Links</a>
+                    <a href="#">Analytics</a>
+                </div>
+                <div class="col3">
+                    <p>Resources</p>
+                    <a href="#">Blog</a>
+                    <a href="#">Developers</a>
+                    <a href="#">Support</a>
+                </div>
+                <div class="col4">
+                    <p>Company</p>
+                    <a href="#">About</a>
+                    <a href="#">Our Team</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="social">
+                    <img src="images/icon-facebook.svg" alt="fb">
+                    <img src="images/icon-twitter.svg" alt="twitter">
+                    <img src="images/icon-pinterest.svg" alt="pin">
+                    <img src="images/icon-instagram.svg" alt="insta">
+                </div>
+            </div>
+            <div class="footnote">Challenge by Frontend Mentor. Coded by Om Srivastava.</div>
+        </footer>
+        <script src="index.js"></script>
+    </body>
+</html>
