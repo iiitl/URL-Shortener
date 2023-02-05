@@ -246,6 +246,22 @@ nav > a:hover{
     top: -30px;
     position: absolute;
 }
+@media screen and (max-width: 970px){
+    .weird{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .weird > div{
+        width: 45%;
+    }
+    .div3{
+        margin-top:0 ;
+    }
+    
+    
+}
 .boost{
     background-image: url(images/bg-boost-desktop.svg);
     background-size: cover;
@@ -293,12 +309,6 @@ footer{
         flex-direction: column;
         text-align: center;
         width: 100%;}
-}
-
-
-
-.p1, .p2{
-    display: flex;
 }
 .col2 > a, .col3 > a, .col4 > a{
     margin-top: 20px;
