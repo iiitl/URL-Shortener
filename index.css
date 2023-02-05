@@ -48,7 +48,7 @@ nav > a:hover{
 .more{
     margin-top: 80px;
     margin-left: 100px;
-    width: fit-content;
+    width: 100%;
 }
 .h11{
     font-size: 4.9em;
@@ -63,7 +63,14 @@ nav > a:hover{
 }
 .first{
     display: flex;
+    flex-wrap: nowrap;
     margin-bottom: 100px;
+}
+.firstimg{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .first > img{
     width: 600px;
