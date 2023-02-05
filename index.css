@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+
 }
 :root{
     --aq: #2ad0cf;
@@ -138,7 +139,8 @@ nav > a:hover{
     overflow: hidden;
 }
 .links{
-    width: 100vw;
+    /* This is the defaulter due to this the there is the scroll bar under the page i have reduced its width so that it can easily accomodate its vertical scroll bar */
+    width: 90vw;
     height: 400px;
     /* background-color: black; */
     color: black;
@@ -276,7 +278,7 @@ nav > a:hover{
 }
 footer{
     background-color: var(--dark);
-    width: 100vw;
+    /* width: 100vw; */
     color: white;
     padding: 0% 10%;
 }
